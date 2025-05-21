@@ -1,0 +1,44 @@
+.card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.image{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.title{
+    color:black;
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0.2rem;
+}
+.year{
+    font-size: 0.9rem;
+    color: #2A4759;
+}
+.button{
+    margin: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: #2A4759;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.button:hover{
+    background-color: #f0f4f5;
+    color: #2A4759;
+}

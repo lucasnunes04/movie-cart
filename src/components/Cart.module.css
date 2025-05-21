@@ -1,0 +1,33 @@
+.cart{
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.title{
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #222;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+}
+.removeButton{
+    background: #e6817e ;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+.removeButton:hover{
+    background: white;
+    color: #e6817e;
+    
+}

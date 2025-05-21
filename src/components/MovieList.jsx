@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieCard from './MovieCard';
+import styles from './MovieList.module.css';
+
 
 export default function MovieList() {
   const [movies, setMovies] = useState([]);
@@ -11,7 +13,7 @@ export default function MovieList() {
   }, []);
 
   return (
-    <div className="movie-list">
+    <div className={styles.list}>
       {movies.map(movie => (
         <MovieCard key={movie.imdbID} movie={movie} />
       ))}

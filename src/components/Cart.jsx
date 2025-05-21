@@ -1,3 +1,4 @@
+import styles from './Cart.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from '../redux/cartSlice';
 
